@@ -1,0 +1,73 @@
+#header nav {
+    margin-top: 15px;
+}
+
+#header nav ul li.current > a {
+    font-weight: inherit;
+    border-bottom: 1px solid #fff;
+}
+
+header.special:before, header.special:after {
+    border: none;
+}
+
+body.index #main {
+    padding-top: 0;
+}
+
+#banner {
+    background-image: url("../../images/home_banner.jpeg");
+    background-size: cover;
+}
+
+#banner .inner {
+    background-color: transparent;
+}
+
+input, select, textarea {
+    color: #fff;
+}
+
+#banner .inner header, 
+#banner .inner header h2 {
+    border: none;
+}
+
+.why-us section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-supply {
+    background-image: url('./images/icons/supply_chain.png');
+}
+.icon-financial {
+    background-image: url('./images/icons/financial.png');
+}
+.icon-partner {
+    background-image: url('./images/icons/partner_network.png');
+}
+.icon-risk {
+    background-image: url('./images/icons/risk.png');
+}
+
+.icon-placeholder {
+    height:100px;
+    background-repeat: none;
+    border: 4px solid rgb(15, 15, 58);
+    border-radius: 50%;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: contain;
+}
+
+#cta {
+    background-color: #1f1b1e;
+}
+
+.icon.circle.fa-linkedin-in {
+    background: #2977c9;
+    color: #fff;
+}
