@@ -1,0 +1,54 @@
+:root {
+    /* main */
+    --swedish-blue: #03588e;
+    --swedish-blue1: #2d5fa1;
+    --swedeish-yellow: #fdcf09;
+    --swedeish-yellow1: #ffca20;
+    --very-light-grey: #f3f6fa;
+    --light-grey0: #667794;
+    --grey0: #7c8081;
+    --dark-grey0:#333;
+    --blue0: #267cb7;
+    --navy0: #304780;
+    --dark-navy0: #0b1c33   ;
+    --yellow0: #f1e53d;
+    --light-green0: #69999b;
+
+    /* alternatives 1 */
+    --navy1: #2f4982;
+    --navy3: #304980;
+    --navy4: #304a82;
+    --yellow1: #f4e735;
+    --yellow2: #f1e53e;
+    --blue2: #267cb8;
+
+    /* alternatives 2 */
+    --blue2: #1c4e8e;
+    --navy2: #162b4c;
+    --yellow2: #f2bd00;
+    --blue2: #267cb8;
+    --grey2: #dddddd;
+
+    /* alternatives 2 */
+    --blue3: #6992a4;
+    --navy3: #01265a;
+    --yellow3: #f5af2a;
+    --blue3: #267cb8;
+    --grey3: #a1aab1;
+
+    /* Color selection */
+    --black: #000;
+    --white: #fff;
+
+    --very-light-grey: var(--very-light-grey);
+    --light-grey: var(--light-grey0);
+    --grey: var(--grey0);
+    --dark-grey:var(--dark-grey0);
+
+    --blue: var(--swedish-blue1);
+    --navy: var(--dark-navy0);
+
+    --yellow: var(--swedeish-yellow1);
+
+    --light-green: var(--light-green0);
+}

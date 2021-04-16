@@ -1,6 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
-
+@import url("./variables.css");
 /*
 	Twenty by HTML5 UP
 	html5up.net | @ajlkn
@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #7c8081;
+		color: var(--dark-grey);
 		font-family: 'Lato', sans-serif;
 		font-size: 15pt;
 		font-weight: 300;
@@ -2527,7 +2527,7 @@ input, select, textarea {
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -2642,7 +2642,7 @@ input, select, textarea {
 
 	#footer {
 		background: #E8EEF4;
-		color: #7c8081;
+		color:var(--dark-grey);
 		padding: 5em 5em 10em 5em;
 		text-align: center;
 	}
