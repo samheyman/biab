@@ -8,7 +8,7 @@
     --light-grey0: #667794;
     --grey0: #7c8081;
     --dark-grey0:#333;
-    --blue0: #267cb7;
+    --blue0: hsl(201, 97%, 24%);
     --navy0: #304780;
     --dark-navy0: #0b1c33   ;
     --yellow0: #f1e53d;
@@ -51,4 +51,11 @@
     --yellow: var(--swedeish-yellow1);
 
     --light-green: var(--light-green0);
+
+    --clr-primary: hsl(201, 97%, 24%);
+    --clr-primary-variant: hsl(201, 97%, 14%);
+    --clr-primary-variant-1: hsl(201, 97%, 26%);
+    --clr-accent: hsl(45,86%,46%);
+
+
 }
