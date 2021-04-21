@@ -33,30 +33,10 @@
         <nav id="nav">
           <ul>
             <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="index.html">About us</a></li>
-            <li><a href="index.html">Our services</a></li>
-            <li><a href="index.html">Innovation</a></li>
-            <!-- <li class="submenu">
-              <a href="#">Layouts</a>
-              <ul>
-                <li><a href="left-sidebar.html">Left Sidebar</a></li>
-                <li><a href="right-sidebar.html">Right Sidebar</a></li>
-                <li><a href="no-sidebar.html">No Sidebar</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li class="submenu">
-                  <a href="#">Submenu</a>
-                  <ul>
-                    <li><a href="#">Dolore Sed</a></li>
-                    <li><a href="#">Consequat</a></li>
-                    <li><a href="#">Lorem Magna</a></li>
-                    <li><a href="#">Sed Magna</a></li>
-                    <li><a href="#">Ipsum Nisl</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li> -->
+            <li><a href="about.html">About us</a></li>
+            <li><a href="services.html">Our services</a></li>
+            <li><a href="innovation.html">Innovation</a></li>
             <li>
-              <!-- <a href="contact.html" class="button primary">Contact us</a> -->
               <a href="contact.html">Contact us</a>
             </li>
           </ul>
@@ -64,39 +44,41 @@
       </header>
 
       <!-- Banner -->
-      <section id="banner">
-        <!--
+      <section id="banner" class="banner--home">
+        <div class="banner__layer banner__layer--home">
+          <!--
 						".inner" is set up as an inline-block so it automatically expands
 						in both directions to fit whatever's inside it. This means it won't
 						automatically wrap lines, so be sure to use line breaks where
 						appropriate (<br />).
 					-->
-        <div class="inner">
-          <header>
-            <!-- <h2>BIAB International</h2> -->
-            <h2>Products &amp; logistics solutions</h2>
-          </header>
-          <p>tailor-made for UN organizations, NGOs and the private sector</p>
-          <!-- <p>
+          <div class="inner">
+            <header>
+              <!-- <h2>BIAB International</h2> -->
+              <h2>Products &amp; logistics solutions</h2>
+            </header>
+            <p>tailor-made for UN organizations, NGOs and the private sector</p>
+            <!-- <p>
             for UN organizations, NGOs, and to the private sector.
           </p> -->
-          <footer>
-            <ul class="buttons">
-              <li>
-                <a
-                  href="contact.html"
-                  class="button button--primary fit scrolly"
-                  >Contact us</a
-                >
-              </li>
+            <footer>
+              <ul class="buttons">
+                <li>
+                  <a
+                    href="contact.html"
+                    class="button button--primary fit scrolly"
+                    >Contact us</a
+                  >
+                </li>
 
-              <li>
-                <a href="#main" class="button button--outlined fit scrolly"
-                  >Read more</a
-                >
-              </li>
-            </ul>
-          </footer>
+                <li>
+                  <a href="#main" class="button button--outlined fit scrolly"
+                    >Read more</a
+                  >
+                </li>
+              </ul>
+            </footer>
+          </div>
         </div>
       </section>
 
@@ -116,12 +98,14 @@
             <ul class="buttons">
               <!-- <li><a href="#" class="button primary">Read more</a></li> -->
               <li>
-                <a href="./services.html" class="button button--outlined--dark">Our services</a>
+                <a href="./services.html" class="button button--outlined--dark"
+                  >Our services</a
+                >
               </li>
             </ul>
           </div>
           <div class="right">
-            <img src="images/distribution.jpg" width="400" />
+            <img src="images/distribution.jpg" />
           </div>
         </header>
       </section>
@@ -129,7 +113,7 @@
       <!-- Main -->
       <article id="why-us">
         <section class="wrapper style1 container special">
-          <div class="header">
+          <div class="row header">
             <h2>Why choose us?</h2>
             <p>
               BIAB International AB started its operations in 1980 in
@@ -138,7 +122,6 @@
             </p>
           </div>
           <div class="row why-us">
-           
             <div class="col-3 col-12-narrower">
               <section>
                 <div class="icon-border">
@@ -159,7 +142,8 @@
             <div class="col-3 col-12-narrower">
               <section>
                 <div class="icon-border">
-                  <span style="padding-bottom: 10px;"
+                  <span
+                    style="padding-bottom: 10px"
                     class="icon solid featured icon-placeholder icon-supply"
                   ></span>
                 </div>
@@ -222,7 +206,9 @@
             <ul class="buttons">
               <!-- <li><a href="#" class="button primary">Read more</a></li> -->
               <li>
-                <a href="#" class="button button--secondary">Read more</a>
+                <a href="innovation.html" class="button button--secondary"
+                  >Read more</a
+                >
               </li>
             </ul>
           </div>
@@ -234,17 +220,14 @@
 
       <!-- Footer -->
       <footer id="footer">
-        <div class="footer__copyright">
-          <ul class="copyright">
-            <li>&copy; 2021 Biab International AB. All rights reserved.</li>
-          </ul>
-        </div>
+        <!-- <div class="footer__copyright"> -->
         <div class="footer__social-media">
-          <!-- <ul class="icons">
-            <li> -->
-          <a href="#" class="social-media__link">
-            Keep updated
+          <!-- <p></p>BIAB International -->
 
+          <!-- <ul class="icons">
+              <li> -->
+          <a href="#" class="social-media__link"> Keep updated </a>
+          <a href="#" class="social-media__icon">
             <i class="fab fa-linkedin"></i>
           </a>
           <!-- <a href="#" class="icon brands circle fa-linkedin-in"> -->
@@ -252,14 +235,23 @@
           <!-- <span class="label">LinkedId</span> -->
           <!-- </a> -->
           <!-- </li>
-          </ul> -->
+            </ul> -->
         </div>
-        <!-- <div class="footer__links">
-          <ul class="copyright">
-            <li><a href="http://html5up.net">Terms</a></li>
-            <li><a href="http://html5up.net">Privacy</a></li>
-          </ul>
-        </div> -->
+        <ul class="copyright">
+          <li>&copy; 2021 Biab International AB. All rights reserved</li>
+
+          <li><a href="http://html5up.net">Terms</a></li>
+          <li><a href="http://html5up.net">Privacy</a></li>
+        </ul>
+        <!-- </div>
+       
+        <div class="footer__links"> -->
+        <ul class="copyright">
+          <li>
+            Website by <a href="https://samheyman.github.io/">Sam Heyman</a>
+          </li>
+        </ul>
+        <!-- </div> -->
       </footer>
     </div>
 
