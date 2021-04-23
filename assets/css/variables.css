@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
 :root {
     /* main */
     --swedish-blue: #03588e;
@@ -53,9 +56,13 @@
     --light-green: var(--light-green0);
 
     --clr-primary: hsl(201, 97%, 24%);
+    --clr-primary-900: hsl(201, 97%, 4%);
     --clr-primary-variant: hsl(201, 97%, 14%);
     --clr-primary-variant-1: hsl(201, 97%, 26%);
     --clr-accent: hsl(45,86%,46%);
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-neutral-200: hsl(0, 0%, 90%);
 
-
+    --ff-accent: "Roboto", sans-serif;
+    --ff-primary: "Open Sans", sans-serif;
 }
