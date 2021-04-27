@@ -1,0 +1,36 @@
+{
+  "name": "biab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url '.'",
+    "clean": "rm -rf dist/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samheyman/biab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samheyman/biab/issues"
+  },
+  "homepage": "https://github.com/samheyman/biab#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.32.11"
+  },
+  "dependencies": {
+    "breakpoints": "*",
+    "breakpoints-js": "^1.0.6",
+    "browser": "^0.2.6",
+    "jquery": "^3.6.0",
+    "jquery.scrolly": "^0.0.1",
+    "js": "^0.1.0",
+    "scrolly": "^0.6.0"
+  }
+}
