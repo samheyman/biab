@@ -18,6 +18,7 @@ npm run dev
 ## Deploying
 
 ```shell
+npm run clean
 npm run build
 ```
 upload the contents of the `dist` folder to the webserver.
@@ -30,4 +31,4 @@ Inspiration from [Twenty](https://html5up.net/twenty), a free responsive templat
 
 Copyright &copy;2021 Biab International.
 
-Designed and build by [Sam Heyman](samheyman.github.io)
+Designed and build by [Sam Heyman](samheyman.github.io).

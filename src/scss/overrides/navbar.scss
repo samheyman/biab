@@ -1,0 +1,38 @@
+#nav ul li > a {
+    font-weight: 200 !important;
+  }
+  
+  #header nav ul li.current > a {
+    font-weight: 600 !important;
+  }
+  
+  #nav ul li.current > a:hover,
+  #nav ul li.current > a:focus {
+    font-weight: 800 !important;
+    border: 0 !important;
+    background-color: inherit !important;
+  }
+  
+  header.special:before,
+  header.special:after {
+    border: none;
+  }
+  
+  #header {
+    .header {
+      &__logo {
+        text-transform: none;
+        border-bottom: 0;
+      }
+    }
+  }
+  
+  #header,
+  #header.alt {
+    padding: 1rem 2.5rem !important;
+  }
+  
+  #header nav,
+  #header.alt nav {
+    top: calc(1rem + 0.7em) !important;
+  }
