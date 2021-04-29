@@ -12,6 +12,7 @@ Website for BIAB International.
 ## Running locally
 
 ```shell
+npm i
 npm run dev
 ```
 

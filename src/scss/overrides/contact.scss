@@ -2,6 +2,32 @@
     .wrapper.style4 {
         background: #fff;
         color: inherit;
-        padding: 4em;
+        padding: 1em;
+    }
+
+    .envelope {
+        margin-bottom: 3em;
+    }
+
+    .icon {
+        display: block !important;
+        
+        text-align: center;
+      
+        width: 100%;
+        color: #7c8081;
+       
+    }
+
+    .icon:before {
+        font-size: 3.5em;
+        opacity: 0.35;
+        line-height: normal;
+    }
+
+    @media screen and (min-width: 980px) {
+        .wrapper.style4 {
+            padding:4em;
+        }
     }
 }
