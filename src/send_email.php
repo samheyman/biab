@@ -77,7 +77,7 @@ if (isset($_POST['email'])) {
 -->
 <html>
 	<head>
-		<title>Biab Innovation</title>
+		<title>Biab International - Message sent</title>
 		<meta charset="utf-8" />
 		<meta
 		  name="viewport"
