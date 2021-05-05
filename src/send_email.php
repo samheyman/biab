@@ -2,7 +2,8 @@
 if (isset($_POST['email'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "info@biabint.se";
+    // $email_to = "info@biabint.se";
+    $email_to = "sam.heyman@gmail.com";
     $email_subject = "New message";
 
     function problem($error)
@@ -86,19 +87,31 @@ if (isset($_POST['email'])) {
 	  </head>
 	<body class="contact is-preload">
 		<div id="page-wrapper">
-
-			
-
-			
-		
-
-							
-								<div class="content">
-    Thank you for contacting us. We will be in touch with you very soon.
-
-<br />
-<br />
-    <a href="https://biabint.se">Back to homepage</a>
+            <div style="margin: 4rem auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: helvetica, sans-serif;">
+                <p style="color: #3d853d;font-size: 3em;margin: 10px 0;">
+                    &#10003;
+                </p>
+    <p style="margin:0">Thank you for contacting us. We will be in touch with you very soon.</p>
+    <a style="border: solid 1px;
+    border-radius: 0;
+    color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 900;
+    letter-spacing: 2px;
+    min-width: 18em;
+    padding: 0 0.75em;
+    line-height: 3.75em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 30px;" href="https://biabint.se">Back to homepage</a>
 </div>
 </section>
 </article>
