@@ -22,7 +22,9 @@ npm run dev
 npm run clean
 npm run build
 ```
-upload the contents of the `dist` folder to the webserver.
+upload the contents of the `dist` folder to the root of the webserver.
+
+Note: make sure to create the folder 'uploads' and upload the pdf files into it as this is not managed by parcel package manager.
 
 ## Resources
 
