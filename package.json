@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
+    "start": "parcel src/index.html",
     "build": "parcel build src/index.html --public-url '.' cp src/send_email.php dist '.' cp src/README.txt '.' cp src/.htaccess",
     "clean": "rm -rf dist/*",
     "test": "echo \"Error: no test specified\" && exit 1"
